@@ -1,0 +1,8 @@
+cobra
+imatpy
+pandas
+numpy
+matplotlib
+seaborn
+requests
+openpyxl
