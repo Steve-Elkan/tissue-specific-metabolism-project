@@ -8,4 +8,5 @@ seaborn>=0.13
 requests>=2.31
 scipy
 openpyxl
-
+imatpy
+gurobipy
