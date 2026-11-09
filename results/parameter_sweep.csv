@@ -1,0 +1,7 @@
+tissue,percentile,active_reactions,inactive_reactions,intermediate_reactions,imat_objective,runtime_seconds,status
+liver,10,3806,6780,14,1665.0,59.4529550075531,optimal
+liver,15,4877,5661,62,2118.0,69.37597799301147,optimal
+liver,20,5609,4902,89,2619.0,77.50864887237549,optimal
+skeletal muscle,10,2300,8265,35,1305.0,61.91379904747009,optimal
+skeletal muscle,15,3017,7528,55,1877.0,60.122483015060425,optimal
+skeletal muscle,20,4367,6094,139,2746.0,71.76306891441345,optimal
