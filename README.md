@@ -21,6 +21,7 @@ How does the choice of gene-expression thresholds affect the prediction of tissu
 The project uses iMAT, a constraint-based metabolic modeling method that integrates gene-expression data with a genome-scale metabolic reconstruction.
 
 The workflow consists of:
+
 (1) Download the gene-expression dataset and Recon3D model.
 
 (2) Load and preprocess gene-expression measurements.
@@ -90,13 +91,10 @@ All six optimization experiments achieved optimal solver status.
 
 10. Interpretation
 
-Increasing the expression percentile resulted in an increase in predicted active reactions in both tissues.
-In liver, active reactions increased from 3,806 at percentile 10 to 5,609 at percentile 20.
-In skeletal muscle, active reactions increased from 2,300 to 4,367.
-This indicates that the reconstructed metabolic networks are sensitive to the expression classification thresholds.
-Liver consistently showed more predicted active reactions than skeletal muscle under the tested conditions.
-The results demonstrate the importance of parameter selection when integrating gene-expression information into genome-scale metabolic reconstructions.
-These reaction classifications represent model-based predictions and should not be interpreted as direct measurements of metabolic flux or biological activity.
+Increasing the expression percentile resulted in an increase in predicted active reactions in both tissues. In liver, active reactions increased from 3,806 at percentile 10 to 5,609 at percentile 20. In skeletal muscle, active reactions increased from 2,300 to 4,367. 
+Overall Liver seems to have more active reactions than skeletal muscles.
+These networks seem to be highly sensitive to expression threshold classifications with drastically varying readings.
+Hence it proves the point that parameter selection is a crucial aspect when integrating gene-expression information into genome-scale metabolic reconstructions.
 
 11. Tissue Comparison
 
@@ -124,3 +122,5 @@ The comparison should be interpreted in conjunction with the percentile used for
 (3) Human Protein Atlas: https://www.proteinatlas.org/
 
 (4) Recon3D: https://bigg.ucsd.edu/
+
+(5) ChatGPT: AI used for code generation and GitHub integration 
